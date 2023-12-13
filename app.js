@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", function (req, res) {
-  res.send("Hello Elox_1");
+  res.send("Hello Elox_1_Test");
 });
 app.get("/new", function (req, res) {
   res.send("New also worked");
